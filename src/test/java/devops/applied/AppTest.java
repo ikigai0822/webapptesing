@@ -18,7 +18,7 @@ public class AppTest {
     public void test() {
         System.setProperty("webdriver.chrome.driver", "D:\\tools\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("http://127.0.0.1:5500/upload.html");
+        driver.get("http://13.232.153.58/upload.html");
 
         // Fill out the form
         WebElement fileInput = driver.findElement(By.id("torrent-file"));
